@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/ButtonLong"
+        android:backgroundTint="#AC70B6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Powiadomienie Długie" />
+
+    <Button
+        android:id="@+id/PictureButton"
+        android:layout_width="match_parent"
+        android:backgroundTint="#46D5B4"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Powiadomienie Zdjecie" />
+
+    <Button
+        android:id="@+id/ButtonAddLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#051771"
+        android:layout_gravity="center_horizontal"
+        android:text="Powiadomienie add line" />
+
+</LinearLayout>
