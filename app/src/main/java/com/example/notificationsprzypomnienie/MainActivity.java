@@ -16,7 +16,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
-public class MainActivity extends AppCompatActivity { private static final String CHANNEL_ID_DEFAULT = "channel_default"; private static final String CHANNEL_ID_LOW = "channel_low"; private static final String CHANNEL_ID_HIGH = "channel_high";
+public class MainActivity extends AppCompatActivity {
+    private static final String CHANNEL_ID_DEFAULT = "channel_default";
+    private static final String CHANNEL_ID_LOW = "channel_low";
+    private static final String CHANNEL_ID_HIGH = "channel_high";
     private static int notificationID = 1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
